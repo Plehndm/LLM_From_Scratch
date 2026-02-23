@@ -9,5 +9,5 @@ This project documents my step-by-step construction of a GPT-like large language
 Join me in expanding your knowledge about how large language models work!
 I will be primarily conducting this project in a Jupyter Notebook for ease of testing and experimentation. 
 
-Current status: Early Neural Network experimentation
+Current status: Early Neural Network and GPU optimization experimentation
 End goal: Fully functional GPT-style LLM trained end-to-end
