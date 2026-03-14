@@ -34,6 +34,7 @@ def ddp_setup(rank, world_size):
         os.environ["USE_LIBUV"] = "0"
        
         # Windows users may have to use "gloo" instead of "nccl" as backend
+        # May also have to install WSL2 for linux environment running on windows reinstall torch and run in python venv
         init_process_group(
             backend="gloo",       # gloo: Facebook Collective Communication Library
             rank=rank,            # rank: refers to the index of the GPU we want to use
